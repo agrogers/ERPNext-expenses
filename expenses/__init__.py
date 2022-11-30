@@ -4,6 +4,6 @@
 # Licence: Please refer to LICENSE file
 
 
-__version__ = "1.0.0"
+__version__ = "1.0.0-AGR.1"
 __module__ = "Expenses"
 __production__ = False

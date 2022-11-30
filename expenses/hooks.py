@@ -15,7 +15,7 @@ app_icon = "octicon octicon-note"
 app_color = "blue"
 app_email = "kid1194@gmail.com"
 app_license = "MIT"
-
+app_include_js = "public/js/expenses.js"
 
 doctype_js = {
     "Expenses Settings": "public/js/expenses.js",
