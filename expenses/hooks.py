@@ -18,38 +18,23 @@ app_license = "MIT"
 app_include_js = "public/js/expenses.js"
 
 doctype_js = {
-    "Expenses Settings": "public/js/expenses.js",
-    "Expense Type": [
-        "public/js/expenses.js",
-        "public/js/expenses.unique_array.js"
-    ],
-    "Expense Item": [
-        "public/js/expenses.js",
-        "public/js/expenses.unique_array.js"
-    ],
-    "Expense": "public/js/expenses.js",
-    "Expenses Request": [
-        "public/js/expenses.js",
-        "public/js/form_dialog.js"
-    ],
-    "Expenses Entry": "public/js/expenses.js"
+    "Expenses Settings": "public/js/expenses.bundle.js",
+    "Expense Type": "public/js/expenses.bundle.js",
+    "Expense Item": "public/js/expenses.bundle.js",
+    "Expense": "public/js/expenses.bundle.js",
+    "Expenses Request": "public/js/expenses.bundle.js",
+    "Expenses Entry": "public/js/expenses.bundle.js",
 }
 
 
 doctype_list_js = {
-    "Expense": [
-        "public/js/expenses.js",
-        "public/js/expenses.form_dialog.js"
-    ]
+    "Expense Type": "public/js/expenses.bundle.js",
+    "Expense": "public/js/expenses.bundle.js",
 }
 
 
 doctype_tree_js = {
-    "Expense Type": [
-        "public/js/expenses.js",
-        "public/js/expenses.form_dialog.js",
-        "public/js/expenses.unique_array.js"
-    ]
+    "Expense Type": "public/js/expenses.bundle.js",
 }
 
 
